@@ -3,6 +3,8 @@ import "./SideBar.css";
 import { useState } from 'react';
 import Popup from "./Popup"; 
 import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
+
 // import Calendar from 'react-calendar'
 
 function SideBar() {
@@ -25,10 +27,7 @@ function SideBar() {
           </Popup>            
           </div>
         </div>
-      </div>
-
-     
-          
+      </div>    
     </>
   );
 }
