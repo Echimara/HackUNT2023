@@ -1,5 +1,5 @@
 import './App.css';
-import Main from "./components/Main";
+import Main from "./components/Main.tsx";
 import SideBar from './components/SideBar'; 
 
 
