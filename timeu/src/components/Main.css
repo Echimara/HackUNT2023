@@ -10,18 +10,20 @@
     background: linear-gradient(89.9deg, rgba(178, 253, 238, 0.96) -8.1%, rgb(207, 244, 254) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgb(254, 219, 243) 78.7%, rgb(254, 207, 210) 109.2%);
 }
 
-    .widget{
+.widget {
     border: 1px solid black;
     font-weight: bold;
-    width:rem;    
+    width: rem;
     text-align: left;
     cursor: pointer;
-    display: inline-block; /* Make it inline block to fit the content */
+    display: block; /* Set to block for vertical alignment */
+    margin-bottom: 10px; /* Adjust margin as needed for space between widgets */
     padding: 8px; /* Adjust padding as needed */
     color: rgb(234, 234, 234);
     border-radius: 8px; /* Adjust border-radius as needed */
-    background: radial-gradient(circle at 10% 20%, rgb(62, 133, 238) 1.1%, rgb(227, 137, 240) 43.7%, rgb(243, 193, 124) 89.7%);    
+    background: radial-gradient(circle at 10% 20%, rgb(62, 133, 238) 1.1%, rgb(227, 137, 240) 43.7%, rgb(243, 193, 124) 89.7%);
 }
+
 
 .dropbox{
     border: 1px solid black;
