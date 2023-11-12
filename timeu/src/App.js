@@ -6,8 +6,8 @@ import SideBar from './components/SideBar';
 function App() {
   return (
     <div className='page'>
-      <SideBar/>
       <Main/>
+      <SideBar/>
     </div>
   );
 }
