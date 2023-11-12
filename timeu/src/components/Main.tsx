@@ -49,9 +49,9 @@ function Main() {
                 <div
                     className="widget"
                     draggable
-                    onDragStart={(e)=> handleOnDrag(e, "Holidays")}
+                    onDragStart={(e)=> handleOnDrag(e, "Holiday")}
                 >
-                    Holidays
+                    Holiday
                 </div>
             </div>
             <div className="dropbox" onDrop={handleOnDrop} onDragOver={handleDragOver}>
@@ -63,7 +63,7 @@ function Main() {
                 ))}
             </div>
             <div>
-            <button onClick={handleClearWidgets}>Clear Widgets</button>
+            <button className="clearButton" onClick={handleClearWidgets}>Clear Widgets</button>
             </div>
             
             <div className="calendar-table">
