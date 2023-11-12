@@ -67,7 +67,7 @@ function Main() {
             <div>
             <button className="clearButton" onClick={handleClearWidgets}>Clear Widgets</button>
             <a href="https://www.toptal.com/project-managers/tomato-timer" target="_blank" rel="noopener noreferrer">
-  <button className="pomodoro">Manage your time!</button>
+  <button className="pomodoro">🍅Pomodoro Timer</button>
 </a>
 
             </div>
