@@ -44,17 +44,26 @@
     color:#ffffff;
   }
 
-  .clearButton   {
+ 
+    
+  .clearButton {
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    margin: 16px 10px; /* Adjust margin as needed */
     border: 1px solid black;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    width:rem;    
-    cursor: pointer;
-    padding: 8% 8% 8% 8%;
+    display: inline-block; /* Make it inline block to fit the content */
+    cursor: pointer; 
     color: rgb(172, 10, 172);
-    border-radius: 40px 40px 40px 5px;
-    background: linear-gradient(109.6deg, rgb(220, 196, 252) 11.2%, rgb(150, 199, 253) 100.2%);  }
+    background: linear-gradient(109.6deg, rgb(220, 196, 252) 11.2%, rgb(150, 199, 253) 100.2%);
+    padding: 8px; /* Adjust padding as needed */
+    border-radius: 8px; /* Adjust border-radius as needed */
+}
+
+
 
   .ToDo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
