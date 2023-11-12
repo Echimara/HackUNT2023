@@ -1,13 +1,13 @@
 import './App.css';
-import Main from "./components/Main";
-import SideBar from './components/SideBar'; 
+import Main from "./components/Main.tsx";
+import SideBar from './components/SideBar.tsx'; 
 
 
 function App() {
   return (
     <div className='page'>
-      <SideBar/>
       <Main/>
+      <SideBar/>
     </div>
   );
 }

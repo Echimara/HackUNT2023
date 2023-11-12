@@ -1,5 +1,130 @@
-.main{
+
+
+.App{
     border: 1px solid black;
     height: 100vh;
     width: 100%;
+    display:flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(89.9deg, rgba(178, 253, 238, 0.96) -8.1%, rgb(207, 244, 254) 26.3%, rgba(207, 244, 254, 0.48) 47.5%, rgba(254, 219, 243, 0.63) 61.5%, rgb(254, 219, 243) 78.7%, rgb(254, 207, 210) 109.2%);
+}
+
+.widget {
+    border: 1px solid black;
+    font-weight: bold;
+    width: rem;
+    height: 2rem;
+    text-align: center;
+    cursor: pointer;
+    display: block; /* Set to block for vertical alignment */
+    margin-bottom: 10px; /* Adjust margin as needed for space between widgets */
+    padding: 8px; /* Adjust padding as needed */
+    color: rgb(234, 234, 234);
+    border-radius: 8px; /* Adjust border-radius as needed */
+    background: radial-gradient(circle at 10% 20%, rgb(62, 133, 238) 1.1%, rgb(227, 137, 240) 43.7%, rgb(243, 193, 124) 89.7%);
+}
+
+
+.dropbox{
+    width: 12rem;
+}
+
+.widget {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .widgets {
+    padding: 2px 16px;
+    color:#ffffff;
+  }
+
+  .ToDo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+    font-weight: bold;
+    color: none;
+  }
+    
+  .clearButton,
+.pomodoro {
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Align to the bottom */
+    margin: 16px; /* Adjust margin as needed */
+    border: 1px solid black;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: inline-block; /* Make it inline block to fit the content */
+    cursor: pointer;
+    color: rgb(172, 10, 172);
+    background: linear-gradient(109.6deg, rgb(220, 196, 252) 11.2%, rgb(150, 199, 253) 100.2%);
+    padding: 8px; /* Adjust padding as needed */
+    border-radius: 8px; /* Adjust border-radius as needed */
+}
+
+.clearButton {
+    left: 0; /* Align to the left */
+    width:9rem;
+    text-align: center;
+}
+
+.pomodoro {
+    background: radial-gradient(1173px at -3.5% -4.8%, rgb(255, 140, 16) 8.4%, rgb(255, 26, 26) 20.6%, rgb(0, 64, 249) 46.7%, rgb(131, 201, 8) 69.6%, rgb(255, 230, 28) 84.7%);  
+    left: calc(100% - 160px); /* Align to the right with 10px space in between */
+    text-align: center;
+    color: #ffffff;
+    left:0;
+    bottom:3rem;
+    width:9rem;
+    text-align: center;
+}
+
+
+/* Add or update styles in your Main.css file */
+
+.calendar-table {
+  width:100%;
+  overflow-y: auto;
+  background: radial-gradient(circle at 10% 20%, rgb(142, 224, 251) 0%, rgb(255, 121, 225) 100.7%);
+}
+
+table {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%; /* Make the table take 100% width */
+  border-collapse: collapse;
+  table-layout: fixed; /* Fixed table layout for consistent column widths */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px; /* Increased padding for better spacing */
+  text-align: center;
+}
+
+th {
+  background: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  background-color: #f2f2f2;
+}
+
+th:first-child {
+  width: 5%;
+    color: linear-gradient(70.6deg, rgb(172, 30, 255) 0.3%, rgb(65, 35, 251) 55.8%, rgb(35, 251, 224) 105.1%);
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+/* Adjust the width of the day boxes */
+td:nth-child(n+2) {
+  width: 12%;
 }
