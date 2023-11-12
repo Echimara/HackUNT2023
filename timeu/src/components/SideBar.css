@@ -129,13 +129,14 @@ body {font-family: Verdana, sans-serif;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
     border: none;
     border: 1px solid #ccc;
     padding: 20px;
     z-index: 1000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Adjust the value as needed */
+    background: linear-gradient(68.7deg, rgb(29, 173, 235) 13.2%, rgb(137, 149, 250) 29.8%, rgb(229, 109, 212) 48.9%, rgb(255, 68, 128) 68.2%, rgb(255, 94, 0) 86.4%);   font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
   
   
@@ -195,3 +196,5 @@ body {font-family: Verdana, sans-serif;}
     border-radius: 10px; /* Adjust the value as needed */
 
   }
+
+ 
