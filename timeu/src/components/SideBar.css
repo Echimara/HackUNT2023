@@ -129,10 +129,7 @@ body {font-family: Verdana, sans-serif;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%);
-    border: none;
-    border: 1px solid #ccc;
-    padding: 20px;
+    background: linear-gradient(101.9deg, rgb(197, 120, 234) 1.6%, rgb(120, 220, 234) 51.2%, rgb(119, 249, 176) 99.8%);    padding: 20px;
     z-index: 1000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px; /* Adjust the value as needed */
