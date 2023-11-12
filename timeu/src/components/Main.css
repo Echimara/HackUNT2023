@@ -4,14 +4,22 @@
     width: 100%;
     display:flex;
     flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .widget{
     border: 1px solid black;
-    width:4rem;    
+    font-weight: bold;
+    width:rem;    
+    cursor: pointer;
+    padding: 8% 8% 8% 8%;
+    color: rgb(170, 28, 170);
+    border-radius: 8%;
+    background: linear-gradient(109.6deg, rgb(120, 212, 234) 11.2%, rgb(216, 226, 253) 72.1%);
 }
 
 .dropbox{
     border: 1px solid black;
-    width: 4rem;
+    width: 6rem;
 }
