@@ -56,22 +56,15 @@ function Main() {
             </div>
             <div className="dropbox" onDrop={handleOnDrop} onDragOver={handleDragOver}>
                 {widgets.map((widget, index) => (
-                    <div
-                        className="dropped-widget"
-                        key={index}
-                        draggable
-                        onDragStart={(e) => handleOnDrag(e, widget)}
-                    >
-                        {widget}
-                        <span
-                        className="remove-icon"
-                        onClick={() => handleRemoveWidget(index)}
-                        >
-                        &#10005;
-                        </span>
+                    <div className="widget" key={index}>
+                        <div className="dropped-widget" draggable onDragStart={(e) => handleOnDrag(e, widget)}>{widget}</div>
+                        <span className="remove-icon" onClick={() => handleRemoveWidget(index)}>&#10005;</span>
                     </div>
                 ))}
             </div>
+            <div>
+                <button onClick={handleClearWidgets}>Clear Widgets</button>
+            </div> 
         </div>
     );
 
