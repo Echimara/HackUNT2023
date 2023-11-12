@@ -37,21 +37,21 @@ function Main() {
                     draggable
                     onDragStart={(e)=> handleOnDrag(e, "Widget A")}
                 >
-                    Widget A
+                    Physics Homework
                 </div>
                 <div
                     className="widget"
                     draggable
                     onDragStart={(e)=> handleOnDrag(e, "Widget B")}
                 >
-                    Widget B
+                    HackUNT Rest Session
                 </div>
                 <div
                     className="widget"
                     draggable
                     onDragStart={(e)=> handleOnDrag(e, "Widget C")}
                 >
-                    Widget C
+                    Holidays
                 </div>
             </div>
             <div className="dropbox" onDrop={handleOnDrop} onDragOver={handleDragOver}>
