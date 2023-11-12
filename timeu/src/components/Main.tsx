@@ -35,21 +35,21 @@ function Main() {
                 <div
                     className="widget"
                     draggable
-                    onDragStart={(e)=> handleOnDrag(e, "Widget A")}
+                    onDragStart={(e)=> handleOnDrag(e, "Physics Homework")}
                 >
                     Physics Homework
                 </div>
                 <div
                     className="widget"
                     draggable
-                    onDragStart={(e)=> handleOnDrag(e, "Widget B")}
+                    onDragStart={(e)=> handleOnDrag(e, "HackUNT Rest Session")}
                 >
                     HackUNT Rest Session
                 </div>
                 <div
                     className="widget"
                     draggable
-                    onDragStart={(e)=> handleOnDrag(e, "Widget C")}
+                    onDragStart={(e)=> handleOnDrag(e, "Holidays")}
                 >
                     Holidays
                 </div>
