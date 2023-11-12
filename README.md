@@ -1,7 +1,7 @@
 # HackUNT2023
 ## The story behind Time U™
-![Overstimulation Illustration](https://d12jofbmgge65s.cloudfront.net/wp-content/uploads/2023/05/10_Takeaways_Social_Blog-1024x536.webp)
-We live in an era of overstimulation and constant bustle. At times, it's hard to make proper use of the limited time we have in a day. Often we find ourselves thinking we wasted the day, could've done more, and sulk about not meeting that mental _to-do_ list. This is even moresoe in the lives of college students. Between classes, jobs/job hunting, and overall introspection it can get tough to stay focused on other matters. With that, we bring forth **Time U™**. Our friendly user interface and interactive layout aim to help **YOU** seize your day, today.
+![Overstimulation Illustration](https://www.newportacademy.com/wp-content/uploads/resources-mental-health-hero.jpg)
+<br>We live in an era of overstimulation and constant bustle. At times, it's hard to make proper use of the limited time we have in a day. Often we find ourselves thinking we wasted the day, could've done more, and sulk about not meeting that mental _to-do_ list. This is even moresoe in the lives of college students. Between classes, jobs/job hunting, and overall introspection it can get tough to stay focused on other matters. With that, we bring forth **Time U™**. Our friendly user interface and interactive layout aim to help **YOU** seize your day, today.
 
 ## What does it do?
 Time U™ serves as a task manager by splitting events into two categories: "to-do" and "done". Simple. Once the user has accomplished a task, they drag it over to the "done" section. Time U™ also offers the option to clear this section as well as a handy summary of the day's events below a calendar. And if the user struggles with reaching their "flow state", we've included a Pomodoro timer to assist!
