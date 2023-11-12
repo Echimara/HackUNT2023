@@ -78,6 +78,8 @@
 .pomodoro {
   background: radial-gradient(1173px at -3.5% -4.8%, rgb(255, 140, 16) 8.4%, rgb(255, 26, 26) 20.6%, rgb(0, 64, 249) 46.7%, rgb(131, 201, 8) 69.6%, rgb(255, 230, 28) 84.7%);  
   left: calc(100% - 160px); /* Align to the right with 10px space in between */
+text-align: center;
+color: #ffffff;
 }
 
 
