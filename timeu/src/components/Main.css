@@ -16,9 +16,10 @@
     width:rem;    
     text-align: left;
     cursor: pointer;
-    padding: 10% 10% 10% 10%;
+    display: inline-block; /* Make it inline block to fit the content */
+    padding: 8px; /* Adjust padding as needed */
     color: rgb(234, 234, 234);
-    border-radius: 40px 40px 40px 5px;
+    border-radius: 8px; /* Adjust border-radius as needed */
     background: radial-gradient(circle at 10% 20%, rgb(62, 133, 238) 1.1%, rgb(227, 137, 240) 43.7%, rgb(243, 193, 124) 89.7%);    
 }
 
