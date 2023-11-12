@@ -4,12 +4,14 @@ import { useState } from 'react';
 import Popup from "./Popup"; 
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import "./Main.tsx";
 
 // import Calendar from 'react-calendar'
 
 function SideBar() {
 
     const [buttonPopup, setButtonPopup] = useState(false);
+    
 
   return (
     <>
