@@ -14,7 +14,33 @@ function SideBar() {
   return (
     <>
       <div className="sbar">
-        <Calendar/>
+        <Calendar className="calendar"/>
+
+        
+        <div className="card">
+          <div className="container">
+            <h3>
+              <strong>Today </strong>11/11/2023
+            </h3>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="container">
+            <h4>Physics Homework</h4>
+            <h4>HackUNT Rest Session</h4>
+            <h4>Algorithms Exam</h4>
+            <h4>Study Session</h4>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="container">
+            <h3>Holidays</h3>
+
+            
+          </div>
+        </div>
 
         <div className="card">
           <div className="container">
@@ -27,6 +53,7 @@ function SideBar() {
           </Popup>            
           </div>
         </div>
+    
       </div>    
     </>
   );
