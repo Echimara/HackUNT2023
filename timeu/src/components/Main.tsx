@@ -31,6 +31,8 @@ function Main() {
 
     return (
         <div className="App">
+            <div className="ToDo"> <p>To Do:</p></div>
+
             <div className="widgets">
                 <div
                     className="widget"
