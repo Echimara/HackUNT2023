@@ -90,9 +90,9 @@ body {font-family: Verdana, sans-serif;}
 /* Highlight the "current" day */
 .days li .active {
   padding: 5px;
+  border-radius: 90%;
   background: rgb(26, 145, 188);
-  color: white !important
-  
+  color: white !important  
 }
 
 .card {
